@@ -5,15 +5,10 @@
     "contentVersion": "1.0.0.0",
   
     "parameters": {
-
-      "RgName":{
-        "type": "string"
-        "defaultValue": "AIGaming"
-      },
-    
+  
       "accountName": {
   
-        "defaultValue": "AIGamingcomputervisionapi",
+        "defaultValue": "AIGamingCVApi",
   
         "metadata": {
   
@@ -84,7 +79,7 @@
       "cognitiveservicesid": "[concat(resourceGroup().id,'/providers/','Microsoft.CognitiveServices/accounts/', parameters('accountName'))]"
   
     },
-   
+  
     "resources": [
   
       {
