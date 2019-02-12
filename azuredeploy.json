@@ -79,33 +79,6 @@
       "cognitiveservicesid": "[concat(resourceGroup().id,'/providers/','Microsoft.CognitiveServices/accounts/', parameters('accountName'))]"
   
     },
-      "resourceGroup": "[parameters('rgName')]",
-
-      "type": "Microsoft.Resources/deployments",
-
-      "apiVersion": "2018-05-01",
-
-      "name": "AIgaming",
-
-      "dependsOn": [
-
-          "[parameters('rgName')]"
-
-      ],
-  
-      "properties": {
-
-          "mode": "Incremental",
-
-          "templateLink": {
-
-              "uri": "[concat(parameters('_artifactsLocation'), '/RG/azuredeploy.json', parameters('_artifactsLocationSasToken'))]",
-
-              "contentVersion": "1.0.0.0"
-
-          }
-
-      },
 
     "resources": [
   
