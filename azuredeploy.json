@@ -5,10 +5,6 @@
     "contentVersion": "1.0.0.0",
   
     "parameters": {
-      "rgLocation":{
-        "type": "string"
-        "defaultValue": "westeurope"
-      },
 
       "RgName":{
         "type": "string"
@@ -88,14 +84,7 @@
       "cognitiveservicesid": "[concat(resourceGroup().id,'/providers/','Microsoft.CognitiveServices/accounts/', parameters('accountName'))]"
   
     },
-    "resourcesGroup":[
-     {
-       "type": "Microsoft.Resources/resourceGroups",
-       "apiVersion": "2018-05-01",
-       "name": "[parameters('rgName')]"
-     }
-
-    ],
+   
     "resources": [
   
       {
@@ -114,7 +103,7 @@
   
         "apiVersion": "2016-02-01-preview",
   
-        "location": "[parameters('rgLocation')]",
+        "location": "[parameters('cognitiveServicesLocation')]",
   
         "properties": {},
   
