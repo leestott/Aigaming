@@ -18,26 +18,29 @@
   
         "type": "string"
   
-      },
-
-      "rgLocation": {
-        "type": "string",
-        "defaultValue": "WestEurope"
-      },
-      "rgName": {
-        "type": "string",
-        "defaultValue": "AIGaming"
+        {
+          "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentTemplate.json#",
+          "contentVersion": "1.0.0.1",
+          "parameters": {
+              "rgName": {
+                  "type": "string"
+              },
+              "rgLocation": {
+                  "type": "string"
+              }
+          },
+          "variables": {},
+          "resources": [
+              {
+                  "type": "Microsoft.Resources/resourceGroups",
+                  "apiVersion": "2018-05-01",
+                  "location": "[parameters('rgLocation')]",
+                  "name": "[parameters('rgName')]",
+                  "properties": {}
+              }
+          ],
+          "outputs": {}
       }
-    },
-    "variables": {},
-    "resources": [
-      {
-        "type": "Microsoft.Resources/resourceGroups",
-        "apiVersion": "2018-05-01",
-        "location": "[parameters('rgLocation')]",
-        "name": "[parameters('rgName')]"
-      },
-  
       "SKU": {
   
         "type": "string",
