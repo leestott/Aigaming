@@ -5,10 +5,19 @@
     "contentVersion": "1.0.0.0",
   
     "parameters": {
+      "ResourceGroupLocation":{
+        "type": "string"
+        "defaultValue": "westeurope"
+      },
+
+      "ResoureGroup":{
+        "type": "string"
+        "defaultValue": "AIGaming"
+      },
   
       "accountName": {
   
-        "defaultValue": "computervisionapi",
+        "defaultValue": "AIGamingcomputervisionapi",
   
         "metadata": {
   
@@ -30,7 +39,7 @@
   
         },
   
-        "defaultValue": "F0",
+        "defaultValue": "S1",
   
         "allowedValues": [
   
