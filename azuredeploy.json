@@ -88,14 +88,13 @@
       "cognitiveservicesid": "[concat(resourceGroup().id,'/providers/','Microsoft.CognitiveServices/accounts/', parameters('accountName'))]"
   
     },
-    "resources":[
+    "resourcesGroup":[
      {
        "type": "Microsoft.Resources/resourceGroups",
        "apiVersion": "2018-05-01",
-       "location":"[parameters('rgLocation')]",
        "name": "[parameters('rgName')]"
      }
-     
+
     ],
     "resources": [
   
@@ -115,7 +114,7 @@
   
         "apiVersion": "2016-02-01-preview",
   
-        "location": "[parameters('cognitiveServicesLocation')]",
+        "location": "[parameters('rgLocation')]",
   
         "properties": {},
   
