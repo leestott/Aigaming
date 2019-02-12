@@ -1,6 +1,6 @@
 # Cognitve Services Computer Vision API
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://github.com/leestott/Aigaming/blob/master/aigaming.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://github.com/leestott/Aigaming/blob/master/azure.json" target="_blank">
 <img src="https://github.com/leestott/Aigaming/blob/master/Images/deploytoazure.png"/>
 </a>
 <a href="http://armviz.io/#/?load=https://github.com/leestott/Aigaming/blob/master/aigaming.json" target="_blank">
