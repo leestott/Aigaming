@@ -9,3 +9,4 @@
 
 This template deploys an Cognitive Services Computer Vision API for the AIGaming Challenge.
 In the outputs section it will show the Keys and the Endpoint.
+
