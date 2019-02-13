@@ -1,9 +1,9 @@
 # Cognitve Services Computer Vision API
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fleestott%2FAigaming%2Fmaster%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fleestott%2FAigaming%2Fmaster%2Fazuredeploy_draft.json" target="_blank">
 <img src="https://github.com/leestott/Aigaming/blob/master/Images/deploytoazure.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fleestott%2FAigaming%2Fmaster%2Fazuredeploy.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fleestott%2FAigaming%2Fmaster%2Fazuredeploy_draft.json" target="_blank">
 <img src="https://github.com/leestott/Aigaming/blob/master/Images/visualizebutton.png"/>
 </a>
 
