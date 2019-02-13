@@ -15,9 +15,10 @@ Top deploy simply click on the Deploy to Azure Button above, this will launch th
 ![AzureDeploy](/Images/Deploy.PNG)
 
 * On the resource group select create new and create a new resource group called AIGaming
-* Tick I agree to the terms and conditions stated above check box 
+![ResourceGroupName](/Images/Aigaming.PNG)
+* Tick I agree to the terms and conditions stated above check box
 * Finally select purchase.
 
-![ResourceGroupName](/Images/Aigaming.PNG)
+
 
 This will now create and deploy a Microsoft Cognitive Services Key for Cognitive Vision called AIGamingCVApi under the S1 plan (This plan is chargeable to ensure your competitive when playing the AIGaming challenge) and host it within the WestEurope region
