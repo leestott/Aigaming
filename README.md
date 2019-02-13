@@ -1,4 +1,4 @@
-# AIGaming Cognitve Services Computer Vision API
+# AIGaming Cognitive Services Computer Vision API
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fleestott%2FAigaming%2Fmaster%2Fazuredeploy.json" target="_blank">
 <img src="https://github.com/leestott/Aigaming/blob/master/Images/deploytoazure.png"/>
@@ -20,4 +20,4 @@ Top deploy simply click on the Deploy to Azure Button above, this will launch th
 
 ![ResourceGroupName](/Images/Aigaming.PNG)
 
-This will now create and deploy a Microsoft Cognitive Services Key for Cognitive Vision called AIGamingCVApi under the S1 plan (This plan is chargeable to ensure your competitive when playing the AIGaming challenge) and host it within the WestEurope region 
+This will now create and deploy a Microsoft Cognitive Services Key for Cognitive Vision called AIGamingCVApi under the S1 plan (This plan is chargeable to ensure your competitive when playing the AIGaming challenge) and host it within the WestEurope region
