@@ -93,9 +93,11 @@
           "endpoint": {
               "type": "string",
               "value": "[reference(variables('cognitiveservicesid'),'2016-02-01-preview').endpoint]"
+            }
           }
-        } 
+        }
       }
-    }
+    ],
+    
   }
-],
+} 
