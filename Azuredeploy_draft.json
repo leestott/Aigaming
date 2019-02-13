@@ -78,12 +78,24 @@
           ],
           "outputs": {
             
+            "cognitivekeys": {
+              "type": "object",
+              "value": "[listKeys(variables('cognitiveservicesid'),'2016-02-01-preview')]"
+          },
+          "cognitivekey1": {
+              "type": "string",
+              "value": "[listKeys(variables('cognitiveservicesid'),'2016-02-01-preview').key1]"
+          },
+          "cognitivekey2": {
+              "type": "string",
+              "value": "[listKeys(variables('cognitiveservicesid'),'2016-02-01-preview').key2]"
+          },
+          "endpoint": {
+              "type": "string",
+              "value": "[reference(variables('cognitiveservicesid'),'2016-02-01-preview').endpoint]"
           }
-        }
+        } 
       }
     }
-  ],
-  "outputs": {
-    
-    
   }
+],
