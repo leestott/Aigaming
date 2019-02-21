@@ -46,6 +46,7 @@ Simply replace the following 'YOUR-MICROSOFT-COMPUTER-VISION-API-KEY-HERE' with 
 <code>
 
 headers_vision = {'Ocp-Apim-Subscription-Key': 'YOUR-MICROSOFT-COMPUTER-VISION-API-KEY-HERE'}
+
 vision_base_url = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/"
 
 </code>
