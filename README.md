@@ -30,11 +30,11 @@ To get the key required for your cognitive services vision key go to [http://por
 
 Log into your Portal account account and select resource groups, Select AIGaming Resource Group 
 
-![ResourceGroups](/Images/Cognitive.PNG)
+![ResourceGroups](/Images/Cognitive.png)
 
 Then click on the AIGamingCVApi
 
-![CognitiveKey](/images/CognitiveKey.PNG)
+![CognitiveKey](/images/CognitiveKey.png)
 
 The Click 1. Keys this will display your keys please use Key1 simply copy and paste Key 1 from http://portal.azure.com to your AIGaming Coding Template
 
