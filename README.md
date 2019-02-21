@@ -38,6 +38,8 @@ Then click on the AIGamingCVApi
 
 The Click 1. Keys this will display your keys please use Key1 simply copy and paste Key 1 from http://portal.azure.com to your AIGaming Coding Template
 
+Simply replace the following 'YOUR-MICROSOFT-COMPUTER-VISION-API-KEY-HERE' with your Key
+
 headers_vision = {'Ocp-Apim-Subscription-Key': 'YOUR-MICROSOFT-COMPUTER-VISION-API-KEY-HERE'}
 vision_base_url = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/"
 
