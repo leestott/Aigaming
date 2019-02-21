@@ -34,9 +34,11 @@ Log into your Portal account account and select resource groups, Select AIGaming
 
 Then click on the AIGamingCVApi
 
-![CognitiveKey](/images/CognitiveKey.png)
+![CognitiveKey](/Images/CognitiveKey.png)
 
-The Click 1. Keys this will display your keys please use Key1 simply copy and paste Key 1 from http://portal.azure.com to your AIGaming Coding Template
+Then Click 1. The Cognitive Keys this will display your keys please use Key1 simply copy and paste Key 1 from http://portal.azure.com to your AIGaming Coding Template
+
+![Key](/Images/Key.png)
 
 Simply replace the following 'YOUR-MICROSOFT-COMPUTER-VISION-API-KEY-HERE' with your Key
 
