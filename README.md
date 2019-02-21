@@ -1,5 +1,8 @@
 # AIGaming Cognitive Services Computer Vision API
 
+Azure's Computer Vision service provides developers with access to advanced algorithms that process images and return information. To analyze an image, you can either upload an image or specify an image URL. The images processing algorithms can analyze content in several different ways, depending on the visual features you're interested in. For example, Computer Vision can determine if an image contains adult or racy content, or it can find all of the human faces in an image.
+You can use Computer Vision in your application by using either a native SDK or invoking the REST API directly. This page broadly covers what you can do with Computer Vision
+
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fleestott%2FAigaming%2Fmaster%2Fazuredeploy.json" target="_blank">
 <img src="https://github.com/leestott/Aigaming/blob/master/Images/deploytoazure.png"/>
 </a>
@@ -19,6 +22,23 @@ Top deploy simply click on the Deploy to Azure Button above, this will launch th
 * Tick I agree to the terms and conditions stated above check box
 * Finally select purchase.
 
-
-
 This will now create and deploy a Microsoft Cognitive Services Key for Cognitive Vision called AIGamingCVApi under the S1 plan (This plan is chargeable to ensure your competitive when playing the AIGaming challenge) and host it within the WestEurope region
+
+## Getting your Cognitive Services Key
+
+To get the key required for your cognitive services vision key go to [http://portal.azure.com](http://portal.azure.com)
+
+Log into your Portal account account and select resource groups, Select AIGaming Resource Group 
+
+![ResourceGroups](/Images/Cognitive.PNG)
+
+Then click on the AIGamingCVApi
+
+![CognitiveKey](/images/CognitiveKey.PNG)
+
+The Click 1. Keys this will display your keys please use Key1 simply copy and paste Key 1 from http://portal.azure.com to your AIGaming Coding Template
+
+headers_vision = {'Ocp-Apim-Subscription-Key': 'YOUR-MICROSOFT-COMPUTER-VISION-API-KEY-HERE'}
+vision_base_url = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/"
+
+Your now ready to take part in the challenge
