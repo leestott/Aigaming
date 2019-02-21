@@ -49,6 +49,7 @@ If your more familiar with the Azure CLI you can use the following command to cr
 See getting started with [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/get-started-with-azure-cli?view=azure-cli-latest)
 
 <code>
+
 az login
 
 az group create -n AIGaming -l westeurope
@@ -58,6 +59,7 @@ az cognitiveservices account create -n AIGamingCVApi -g AIGaming --sku S1 --kind
 az cognitiveservices account show -g AIGaming -n AIGamingCVApi
 
 az cognitiveservices account keys list -g AIGaming -n AIGamingCVApi
+
 </code>
 
 Your now ready to take part in the challenge
